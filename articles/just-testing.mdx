@@ -28,7 +28,8 @@ You should ask yourself: "Can I pre-render this page **ahead** of a user's reque
 
 ```ts:test.tsx showLineNumbers {4}
 const sum = (num1: number, num2: number): number => {
-    return num1 + num2
+-    return num1 + num2
++    return num2 + num1
 }
 
 console.log(sum(3,7)) //10
